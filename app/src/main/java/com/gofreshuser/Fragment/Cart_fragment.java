@@ -188,9 +188,11 @@ public class Cart_fragment extends Fragment implements View.OnClickListener {
            args.putString("total_price",total_price);
            fm.setArguments(args);
             FragmentManager fragmentManager = getFragmentManager();
-
-            fragmentManager.beginTransaction().replace(R.id.main_container, fm)
-                    .addToBackStack(null).commit();
+            if(fragmentManager!=null) {
+                 fragmentManager.beginTransaction().replace(R.id.main_container, fm)
+                .addToBackStack(null).commit();
+             }
+          
 
         }
     }
