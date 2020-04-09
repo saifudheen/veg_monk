@@ -167,7 +167,7 @@ public class My_Pending_Order extends Fragment {
                         String lat = jsonObject.getString("lat");
 
                         String lng = jsonObject.getString("lng");
-
+                        if(!total_items.equals("0")) {
 
                         My_Pending_order_model model = new My_Pending_order_model();
 
@@ -240,12 +240,12 @@ public class My_Pending_Order extends Fragment {
                         rv_myorder.setAdapter(myPendingOrderAdapter);
 
                         myPendingOrderAdapter.notifyDataSetChanged();
-
+                        }
 
                         if (my_order_modelList.isEmpty()) {
                             Toast.makeText(getActivity(), getResources().getString(R.string.no_rcord_found), Toast.LENGTH_SHORT).show();
                         }
-
+                        
 
                     } catch (JSONException e) {
                         e.printStackTrace();
