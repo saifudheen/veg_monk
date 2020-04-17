@@ -75,7 +75,8 @@ public class Cart_fragment extends Fragment implements View.OnClickListener {
    ProgressDialog progressDialog;
    SharedPreferences deliveryprefrence;
    SharedPreferences.Editor editor;
-   int price,cartfromnt,carttoint,chargesamountint;
+   Float price ;
+   int cartfromnt,carttoint,chargesamountint;
    String cartfrom,cartto,chargesamount;
     public Cart_fragment() {
         // Required empty public constructor
@@ -263,7 +264,7 @@ if (total_item.contains("0")
 else {
     total_price= response.getString("total_amount");
 
-    price= Integer.parseInt(total_price);
+    price= Float.parseFloat(total_price);
 
     getcharges(price);
     tv_item.setText(total_item);
@@ -622,7 +623,7 @@ else {
 
     }
 
-private  void getcharges(final int pricecheck){
+private  void getcharges(final Float pricecheck){
 
     String tag_json_obj = "json_category_req";
 
