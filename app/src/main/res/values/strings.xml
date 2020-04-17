@@ -1,6 +1,6 @@
 ﻿<resources>
 
-    <string name="app_name">GoFresh</string>
+    <string name="app_name">VegMonk</string>
 
     <string name="login">Login</string>
     <string name="currency">Rs.</string>
@@ -25,11 +25,11 @@
     <string name="google_api_client_id">gmail_login_client_id_for_debug</string>
     <string name="google_gmail_release">gmail_login_client_id_for_release</string>
 
-    <string name="google_api_realsekey">AIzaSyBQ-YSVmQS8h0Pv3hs_YwLZ65ifZqZ23X0</string>
+    <string name="google_api_realsekey">AIzaSyBDr25iHpB0UYWeY4i2UUDJIQX5uKesM2c</string>
 
     <string name="google_api_debug">Google_Map_Api_Debug_Key</string>
 
-    <string name="key_for_places">AIzaSyBQ-YSVmQS8h0Pv3hs_YwLZ65ifZqZ23X0</string>
+    <string name="key_for_places">AIzaSyBDr25iHpB0UYWeY4i2UUDJIQX5uKesM2c</string>
 
 
     <string name="default_notification_channel_id">channel-01</string>
@@ -202,7 +202,7 @@
     <string name="house_no">House No.:\u0020</string>
     <string name="socity">Society:\u0020</string>
 
-    <string name="status_stop">Powered By <font color="#f7941e">Bodego</font></string>
+    <string name="status_stop">Powered By <font color="#f7941e">wolfdale</font></string>
 
     <string name="page_3">Page 3</string>
     <string name="about">This is about Restaurant Description,Replace it with original one.</string>

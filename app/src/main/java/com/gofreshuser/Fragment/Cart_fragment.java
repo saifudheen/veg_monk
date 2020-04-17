@@ -386,14 +386,14 @@ else {
         }
 
         @Override
-        public Cart_adapter.ProductHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        public ProductHolder onCreateViewHolder(ViewGroup parent, int viewType) {
             View view = null;
             view = LayoutInflater.from(parent.getContext()).inflate(R.layout.row_search_rv, parent, false);
-            return new Cart_adapter.ProductHolder(view);
+            return new ProductHolder(view);
         }
 
         @Override
-        public void onBindViewHolder(final Cart_adapter.ProductHolder holder, final int position) {
+        public void onBindViewHolder(final ProductHolder holder, final int position) {
             final Cart_model cart_model = list.get(position);
 
             Glide.with(activity)

@@ -1,7 +1,7 @@
 package com.gofreshuser.Config;
 
 public class Baseurl {
-    static final String APP_NAME = "GoFresh";
+    static final String APP_NAME = "VegMonk";
 
     public static final String PREFS_NAME = "GoFreshLoginPrefs";
 
@@ -28,7 +28,7 @@ public class Baseurl {
     public static final String KEY_TIME = "time";
 
 
-    public static String BASE_URL = "http://wolfdale.in/gofresh/";
+    public static String BASE_URL = "http://api.vegmonk.in/";
 
     public static String FORGOT_URL = BASE_URL + "index.php/api/forgot_password";
 
