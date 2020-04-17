@@ -94,7 +94,7 @@
                     android:id="@+id/show_sub_product"
                     android:layout_width="match_parent"
                     android:layout_below="@+id/show_sub__cat"
-
+                     android:visibility="gone"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_10sdp"/>
 
