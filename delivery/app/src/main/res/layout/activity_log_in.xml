@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.LogInActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:id="@+id/linear"
+        android:background="@color/green1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center_horizontal"
+            android:src="@drawable/logo"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="SIGN IN"
+            android:id="@+id/text_sign"
+            android:textColor="#fff"
+            android:textSize="@dimen/text_size_x_large"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+
+    <!--<android.support.design.widget.AppBarLayout-->
+    <!--android:id="@+id/app_bar"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:theme="@style/AppTheme.AppBarOverlay"-->
+    <!--app:elevation="0dp">-->
+
+    <!--</android.support.design.widget.AppBarLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linear"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_20"
+            android:orientation="vertical"
+            android:background="#fff"
+            android:padding="30dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/tv_login_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_10"
+                    android:gravity="center"
+                    android:text="@string/tv_login_email"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/et_login_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_12"
+                    android:layout_marginRight="@dimen/space_12"
+                    android:layout_marginTop="@dimen/space_10"
+                    android:background="@drawable/xml_textbox_bg"
+                    android:ems="10"
+                    android:gravity="center_horizontal"
+                    android:inputType="textEmailAddress"
+                    android:padding="@dimen/space_10"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textColorHint="@color/dark_gray"
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/btn_Sign_in"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="25dp"
+                android:background="@drawable/bg_rounded_button"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="SIGN IN"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/text_size_normal" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

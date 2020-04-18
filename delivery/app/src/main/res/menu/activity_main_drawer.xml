@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group>
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_nav_order"
+            android:title="Orders" />
+
+        <!--<item-->
+            <!--android:id="@+id/nav_firebase"-->
+            <!--android:icon="@drawable/ic_edit_black_24dp"-->
+            <!--android:title="Firebase" />-->
+        <item
+            android:id="@+id/nav_order_history"
+            android:icon="@drawable/ic_nav_order"
+            android:title="Delivered History" />
+
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/ic_nav_order"
+            android:title="Log Out" />
+
+    </group>
+</menu>

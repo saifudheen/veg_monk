@@ -1,0 +1,118 @@
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.godeliver.user.Fragment.Order_history">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/daily_layout"
+                android:layout_marginTop="@dimen/space_20"
+                android:layout_height="wrap_content">
+
+
+
+                <TextView
+
+        android:layout_width="wrap_content"
+        android:text="Today's Order"
+        android:id="@+id/today_order"
+        android:layout_gravity="center"
+        android:textColor="#1EE227"
+        android:textSize="@dimen/space_20"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+
+        android:id="@+id/rc_daily"
+
+        android:layout_marginTop="@dimen/space_10"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="350dp">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/space_20"
+           android:id="@+id/weekly_layout"
+            android:layout_height="wrap_content">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:text="Weekly Order"
+        android:layout_gravity="center"
+        android:id="@+id/weekly_order"
+        android:textColor="#34146D"
+        android:textSize="@dimen/space_20"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+
+        android:id="@+id/rc_weekly"
+        android:layout_marginTop="@dimen/space_10"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="350dp">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/monthly_layout"
+
+            android:layout_marginTop="@dimen/space_20"
+            android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Monthly Order"
+        android:id="@+id/monthly_order"
+        android:layout_gravity="center"
+        android:textColor="#BE1306"
+        android:textSize="@dimen/space_20"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+
+        android:id="@+id/rc_monthly"
+        android:layout_marginTop="@dimen/space_10"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="350dp">
+
+
+    </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+
+</LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
