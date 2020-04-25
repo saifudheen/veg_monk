@@ -24,10 +24,10 @@ public class BaseURL {
     public static final String KEY_DELIVERY_BOY_NAME = "BOY_NAME";
     public static final String KEY_ORDER_ID = "ORDER_ID";
 
-    public static String BASE_URL = "http://api.vegmonk.in/store/";
+    public static String BASE_URL = "https://api.vegmonk.in/store/";
 
 
-    public static String BASE_URLGOGrocer = "http://api.vegmonk.in/";
+    public static String BASE_URLGOGrocer = "https://api.vegmonk.in/";
 
     public static String IMG_PROFILE_URL = BASE_URL + "uploads/profile/";
 

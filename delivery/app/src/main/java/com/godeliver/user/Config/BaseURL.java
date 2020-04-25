@@ -13,8 +13,8 @@ public class BaseURL {
     public static final String KEY_ID = "user_id";
     public static final String KEY_ORDER_ID = "ORDER_ID";
 
-    public static String BASE_URL = "http://api.vegmonk.in";
-    public static String Loction = "http://api.vegmonk.in/store/index.php/api/update_location";
+    public static String BASE_URL = "https://api.vegmonk.in/";
+    public static String Loction = "https://api.vegmonk.in/store/index.php/api/update_location";
     public static String GET_ORDER_URL=  BASE_URL + "index.php/api/delivery_boy_order";
 
     public static String check_Status=  BASE_URL + "index.php/api/change_boy_status";
